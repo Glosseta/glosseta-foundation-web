@@ -3,12 +3,21 @@ import PageLayout from "../../components/layouts";
 import ContentCard from "../../components/content/content-card";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import { Container, VStack, Image } from "@chakra-ui/react";
 
 const MissionPage = (): JSX.Element => {
   const { t } = useTranslation();
 
   return (
     <PageLayout>
+      <Container>
+        <VStack>
+          <Image
+            src="/glosseta_foundation_logo.jpg"
+            alt="Glosseta Foundation Logo"
+          />
+        </VStack>
+      </Container>
       <ContentCard
         title={t("missionPageTitle")}
         content={t("missionContent")}

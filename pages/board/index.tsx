@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, VStack, Text, Heading } from "@chakra-ui/react";
+import { Image, VStack, Text, Heading, Container } from "@chakra-ui/react";
 import PageLayout from "../../components/layouts";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -9,6 +9,14 @@ const Directors = (): JSX.Element => {
 
   return (
     <PageLayout>
+      <Container>
+        <VStack>
+          <Image
+            src="/glosseta_foundation_logo.jpg"
+            alt="Glosseta Foundation Logo"
+          />
+        </VStack>
+      </Container>
       <Heading as="h1" textColor={"white"}>
         {t("boardMemberPageTitle")}
       </Heading>

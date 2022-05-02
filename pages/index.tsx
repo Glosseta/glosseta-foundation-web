@@ -31,6 +31,12 @@ const Home: NextPage = ()  => {
                   navLink="/glosseta"
                 />
               </VStack>
+              <VStack padding={3}>
+                <PageRedirectCard
+                  title={t("visitGlossetaTitle")}
+                  navLink="https://www.glosseta.com"
+                />
+              </VStack>
             </Container>
           </chakra.main>
         </Container>
