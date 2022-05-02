@@ -11,15 +11,12 @@ const Home: NextPage = () => {
           <chakra.main textColor={"white"}>
             <Container marginBottom={"65px"}>
               <VStack>
-                <Heading as="h1">Glosseta Foundation</Heading>
-              </VStack>
-              <VStack>
-                <Image src="/glosseta_icon.png" alt="Glosseta G Icon" />
+                <Image src="/glosseta_foundation_logo.jpg" alt="Glosseta Foundation Logo" />
               </VStack>
             </Container>
             <Container>
               <VStack padding={3}>
-                <PageRedirectCard title="Our Mission" navLink="/mission" />
+                <PageRedirectCard title="Mission" navLink="/mission" />
               </VStack>
               <VStack padding={3}>
                 <PageRedirectCard title="Meet the team" navLink="/board" />
