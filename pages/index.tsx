@@ -20,7 +20,7 @@ const Home: NextPage = ()  => {
             </Container>
             <Container>
               <VStack padding={3}>
-                <PageRedirectCard title={t("missionPageTitle")} navLink="/mission" />
+                <PageRedirectCard title={t("whoWeAreTitle")} navLink="/mission" />
               </VStack>
               <VStack padding={3}>
                 <PageRedirectCard title={t("boardMemberPageTitle")} navLink="/board" />
