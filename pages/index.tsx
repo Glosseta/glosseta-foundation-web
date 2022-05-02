@@ -1,9 +1,13 @@
 import type { NextPage } from "next";
 import PageLayout from "../components/layouts";
-import { VStack, chakra, Heading, Container, Image } from "@chakra-ui/react";
+import { VStack, chakra, Container, Image } from "@chakra-ui/react";
 import PageRedirectCard from "../components/navigation/page-redirect-card";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation } from "next-i18next";
 
-const Home: NextPage = () => {
+const Home: NextPage = ()  => {
+  const {t} = useTranslation();
+
   return (
     <>
       <PageLayout>
@@ -16,14 +20,14 @@ const Home: NextPage = () => {
             </Container>
             <Container>
               <VStack padding={3}>
-                <PageRedirectCard title="Mission" navLink="/mission" />
+                <PageRedirectCard title={t("missionPageTitle")} navLink="/mission" />
               </VStack>
               <VStack padding={3}>
-                <PageRedirectCard title="Meet the team" navLink="/board" />
+                <PageRedirectCard title={t("boardMemberPageTitle")} navLink="/board" />
               </VStack>
               <VStack padding={3}>
                 <PageRedirectCard
-                  title="What is Glosseta?"
+                  title={t("glossetaPageTitle")}
                   navLink="/glosseta"
                 />
               </VStack>
@@ -34,5 +38,15 @@ const Home: NextPage = () => {
     </>
   );
 };
+
+export async function getStaticProps({ locale }: any) {
+
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+      // Will be passed to the page component as props
+    }
+  };
+}
 
 export default Home;
