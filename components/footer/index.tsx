@@ -1,12 +1,17 @@
 import React from "react";
-import styles from '../../styles/Home.module.css'
+import { chakra, VStack, Text } from "@chakra-ui/react";
+import { useTranslation } from "next-i18next";
 
 const Footer = (): JSX.Element => {
+  const {t} = useTranslation();
+
   return (
     <>
-      <footer className={styles.footer}>
-        <span className={styles.logo}>© Glosseta Foundation, 2022</span>
-      </footer>
+      <chakra.footer isTruncated={false} py={10} color="white">
+          <VStack>
+              <Text>{t("copyright")}</Text>
+          </VStack>
+      </chakra.footer>
     </>
   );
 };

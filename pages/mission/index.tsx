@@ -1,10 +1,11 @@
 import React from "react";
-import { Image, VStack, Text, Heading, Container } from "@chakra-ui/react";
 import PageLayout from "../../components/layouts";
+import ContentCard from "../../components/content/content-card";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
+import { Container, VStack, Image } from "@chakra-ui/react";
 
-const Directors = (): JSX.Element => {
+const MissionPage = (): JSX.Element => {
   const { t } = useTranslation();
 
   return (
@@ -17,21 +18,10 @@ const Directors = (): JSX.Element => {
           />
         </VStack>
       </Container>
-      <Heading as="h1" textColor={"white"}>
-        {t("boardMemberPageTitle")}
-      </Heading>
-      <Image
-        boxSize="200px"
-        borderRadius="full"
-        src="https://avatars.githubusercontent.com/u/29411347?v=4"
-        alt={t("boardMember1Name")}
+      <ContentCard
+        title={t("missionPageTitle")}
+        content={t("missionContent")}
       />
-      <VStack textColor={"white"}>
-        <Heading as="h2" fontSize="xl">
-          {t("boardMember1Name")}
-        </Heading>
-        <Text fontSize="xl">{t("boardMember1Role")}</Text>
-      </VStack>
     </PageLayout>
   );
 };
@@ -45,4 +35,4 @@ export async function getStaticProps({ locale }: any) {
   };
 }
 
-export default Directors;
+export default MissionPage;
