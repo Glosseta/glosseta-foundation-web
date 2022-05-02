@@ -8,6 +8,7 @@ function SEO() {
     <Head>
       <title>Glosseta Foundation</title>
       <meta name="description" content="The Glosseta Foundation" />
+      <link rel="icon" href="/glosseta_icon.png" />
       {/* <script defer data-domain="glosseta.com" src="https://plausible.io/js/plausible.js"></script> */}
     </Head>
   );
