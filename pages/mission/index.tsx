@@ -19,8 +19,8 @@ const MissionPage = (): JSX.Element => {
         </VStack>
       </Container>
       <ContentCard
-        title={t("missionPageTitle")}
-        content={t("missionContent")}
+        title={t("whoWeAreTitle")}
+        content={t("whoWeAreContent")}
       />
     </PageLayout>
   );
