@@ -11,10 +11,10 @@ const ContentCard = ({
   return (
     <>
       <Box
-        width="90%"
         background="#2C3539"
         borderWidth="1px"
         borderColor="black"
+        maxW={{ base: "sm", sm: "5xl" }}
       >
         <VStack padding={5}>
           <Heading
