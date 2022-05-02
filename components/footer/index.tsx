@@ -1,12 +1,14 @@
 import React from "react";
-import styles from '../../styles/Home.module.css'
+import { chakra, VStack, Text } from "@chakra-ui/react";
 
 const Footer = (): JSX.Element => {
   return (
     <>
-      <footer className={styles.footer}>
-        <span className={styles.logo}>© Glosseta Foundation, 2022</span>
-      </footer>
+      <chakra.footer isTruncated={false} py={10} color="white">
+          <VStack>
+              <Text>© Glosseta Foundation, 2022</Text>
+          </VStack>
+      </chakra.footer>
     </>
   );
 };
