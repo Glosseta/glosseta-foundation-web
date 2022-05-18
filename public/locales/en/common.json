@@ -2,7 +2,7 @@
     "glossetaFoundationTitle": "The Glosseta Foundation",
     "glossetaFoundationSEODescription": "The Glosseta Foundation is a not-for-profit organization looking introduce web3 to the everyday person",
     
-    "boardMemberPageTitle": "Executive board",
+    "boardMemberPageTitle": "Executive Board",
     "boardMember1Name": "Narbeh Shahnazarian",
     "boardMember1Role": "Founder of Glosseta",
 
@@ -23,8 +23,10 @@
     "glossetaClosingStatementTitle": "Forward looking",
     "glossetaClosingStatementContent": "To stick to it's core values, Glosseta must always remain a public good and it's content always served from an open and decentralized source.  We will always strive to provide the best educational content available to all our users to ensure the community is the best equipped to demystify Web3.  We move forward with a bias for action and look to improve ourselves, along with the platform, using a growth mindset. All contributors looking to help Glosseta grow can expect to have their voices heard, be treated with respect and be a central part in it's development.  Not only will we be able to help others learn new and exciting Web3 concepts, we ourselves will grow to become that much more knowledgeable in the space and come to know when somebody is spreading misinformation.   Education should be a human right and Glosseta is here to help push the world towards that coming to fruition.",
     "meetTheBoardButtonText": "Meet the Team",
+    "TwitterA11yText": "Opens up Twitter profile in a new tab",
 
     "visitGlossetaTitle": "Visit Glosseta",
+    "visitGlossetaButtonTitle": "Visit glosseta.com",
 
     "copyright" : "© Glosseta Foundation, 2022"
 }

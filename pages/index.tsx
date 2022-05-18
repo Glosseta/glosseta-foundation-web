@@ -5,8 +5,8 @@ import PageRedirectCard from "../components/navigation/page-redirect-card";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
-const Home: NextPage = ()  => {
-  const {t} = useTranslation();
+const Home: NextPage = () => {
+  const { t } = useTranslation();
 
   return (
     <>
@@ -15,12 +15,18 @@ const Home: NextPage = ()  => {
           <chakra.main textColor={"white"}>
             <Container marginBottom={"65px"}>
               <VStack>
-                <Image src="/glosseta_foundation_logo.jpg" alt="Glosseta Foundation Logo" />
+                <Image
+                  src="/glosseta_foundation_logo.jpg"
+                  alt="Glosseta Foundation Logo"
+                />
               </VStack>
             </Container>
             <Container>
               <VStack padding={3}>
-                <PageRedirectCard title={t("whoWeAreTitle")} navLink="/mission" />
+                <PageRedirectCard
+                  title={t("whoWeAreTitle")}
+                  navLink="/mission"
+                />
               </VStack>
               <VStack padding={3}>
                 <PageRedirectCard
@@ -29,12 +35,9 @@ const Home: NextPage = ()  => {
                 />
               </VStack>
               <VStack padding={3}>
-                <PageRedirectCard title={t("boardMemberPageTitle")} navLink="/board" />
-              </VStack>
-              <VStack padding={3}>
                 <PageRedirectCard
-                  title={t("visitGlossetaTitle")}
-                  navLink="https://www.glosseta.com"
+                  title={t("boardMemberPageTitle")}
+                  navLink="/board"
                 />
               </VStack>
             </Container>
@@ -46,12 +49,11 @@ const Home: NextPage = ()  => {
 };
 
 export async function getStaticProps({ locale }: any) {
-
   return {
     props: {
       ...(await serverSideTranslations(locale, ["common"])),
       // Will be passed to the page component as props
-    }
+    },
   };
 }
 

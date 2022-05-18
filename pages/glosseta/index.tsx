@@ -3,7 +3,14 @@ import PageLayout from "../../components/layouts";
 import ContentCard from "../../components/content/content-card";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
-import { Container, VStack, Image, Link, Button } from "@chakra-ui/react";
+import {
+  Container,
+  VStack,
+  Image,
+  Link,
+  Button,
+  HStack,
+} from "@chakra-ui/react";
 
 const GlossetaPage = (): JSX.Element => {
   const { t } = useTranslation();
@@ -37,9 +44,11 @@ const GlossetaPage = (): JSX.Element => {
         title={t("glossetaClosingStatementTitle")}
         content={t("glossetaClosingStatementContent")}
       />
-      <Link href="/board">
-        <Button >{t("meetTheBoardButtonText")}</Button>
-      </Link>
+      <HStack spacing={10}>
+        <Link href="https://www.glosseta.com" isExternal>
+          <Button>{t("visitGlossetaButtonTitle")}</Button>
+        </Link>
+      </HStack>
     </PageLayout>
   );
 };

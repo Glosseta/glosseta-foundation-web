@@ -1,6 +1,15 @@
 import React from "react";
-import { Image, VStack, Text, Heading, Container } from "@chakra-ui/react";
+import {
+  Image,
+  VStack,
+  Text,
+  Heading,
+  Container,
+  Link,
+  VisuallyHidden,
+} from "@chakra-ui/react";
 import PageLayout from "../../components/layouts";
+import { FaTwitter } from "react-icons/fa";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 
@@ -31,6 +40,16 @@ const Directors = (): JSX.Element => {
           {t("boardMember1Name")}
         </Heading>
         <Text fontSize="xl">{t("boardMember1Role")}</Text>
+        <Link
+          padding={2}
+          href={"https://twitter.com/narb_s"}
+          display="flex"
+          title="twitter"
+          isExternal
+        >
+          <FaTwitter title="footer-twitter-icon"></FaTwitter>
+          <VisuallyHidden>{t("TwitterA11yText")}</VisuallyHidden>
+        </Link>
       </VStack>
     </PageLayout>
   );
