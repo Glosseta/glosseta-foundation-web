@@ -3,7 +3,7 @@ import PageLayout from "../../components/layouts";
 import ContentCard from "../../components/content/content-card";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
-import { Container, VStack, Image } from "@chakra-ui/react";
+import { Container, VStack, Image, Button, Link } from "@chakra-ui/react";
 
 const MissionPage = (): JSX.Element => {
   const { t } = useTranslation();
@@ -18,10 +18,14 @@ const MissionPage = (): JSX.Element => {
           />
         </VStack>
       </Container>
+      <ContentCard title={t("whoWeAreTitle")} content={t("whoWeAreContent")} />
       <ContentCard
-        title={t("whoWeAreTitle")}
-        content={t("whoWeAreContent")}
+        title={t("problemAtHandTitle")}
+        content={t("whoWeAreProblemAtHandContent")}
       />
+      <Link href="/glosseta">
+        <Button >{t("enterGlossetaButton")}</Button>
+      </Link>
     </PageLayout>
   );
 };
