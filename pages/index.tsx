@@ -40,6 +40,12 @@ const Home: NextPage = () => {
                   navLink="/board"
                 />
               </VStack>
+              <VStack padding={3}>
+                <PageRedirectCard
+                  title={t("getInTouchButtonTitle")}
+                  navLink="mailto:info@glosseta.foundation"
+                />
+              </VStack>
             </Container>
           </chakra.main>
         </Container>
