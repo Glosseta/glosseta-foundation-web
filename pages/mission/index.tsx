@@ -18,13 +18,13 @@ const MissionPage = (): JSX.Element => {
           />
         </VStack>
       </Container>
-      <ContentCard title={t("whoWeAreTitle")} content={t("whoWeAreContent")} />
       <ContentCard
         title={t("problemAtHandTitle")}
         content={t("whoWeAreProblemAtHandContent")}
       />
+      <ContentCard title={t("whoWeAreTitle")} content={t("whoWeAreContent")} />
       <Link href="/glosseta">
-        <Button >{t("enterGlossetaButton")}</Button>
+        <Button>{t("whatIsGlossetaButton")}</Button>
       </Link>
     </PageLayout>
   );
