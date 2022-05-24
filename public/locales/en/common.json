@@ -1,4 +1,8 @@
 {
+    "mainBannerContent": "Intro blog post",
+    "mainBannerContentLink": "https://hashnode.com/preview/6287230c8b33cc3f1f48b5e1",
+    "mainBannerA11yText": "Important Announcement",
+    
     "glossetaFoundationTitle": "The Glosseta Foundation",
     "glossetaFoundationSEODescription": "The Glosseta Foundation is a not-for-profit organization looking introduce web3 to the everyday person",
     
@@ -8,7 +12,7 @@
 
     "whoWeAreTitle": "Who We Are",
     "whoWeAreContent":  "The Glosseta Foundation is a not-for-profit organization whose mission is to push forward accessible, decentralized, open and easily digestible Web3 content to the everyday person across the globe.  As mentioned above, too much of today's Web3 educational content and documentation is geared towards a more technical audience and in most cases doesn't make sense to the average person looking to explore the space.   Furthermore, at this moment of time there isn't a community driven effort to come up with a single source of truth for factual content around Web3 and it's ecosystem.  This is where the Glosseta Foundation is looking to make its mark in the Web3 space with the help of the entire community.  The effort of the foundation will center around three main pillars:  The creation of the educational platform, the creation of a common decentralized content management system to power the platform and the Web3 community as a whole, and uniting the entire Web3 community to come together to make this come to fruition.  The educational platform will be driven and evolved through the existing vessel in the foundations arsenal, Glosseta.",
-    "problemAtHandTitle": "The Problem at Hand",
+    "problemAtHandTitle": "The Problem at Hand With Web3",
     "whoWeAreProblemAtHandContent": "At this moment of time much of the attention around Web3(i.e. the new internet backed by blockchains) is surrounded by misinformation and misrepresentation of what it is and what it isn't.  The typical signals the average person is exposed to regarding Web3 more often than not casts a negative light instead of focusing on what the movement is trying to achieve.  A lot has to do with a perception that Web3 and Cryptocurrency speculation are one and the same.  It's just not true.  Web3 is the umbrella that covers the entire ecosystem and Cryptocurrency is one of the core innovations that falls under it.   Indeed Web3 is more than just Cryptocurrency but the world doesn't hear or see that narrative. Much of the current narrative comes from mainstream media amplifying negativity around the space, celebrities taking advantage of their unknowing fans and in general people who frankly don't know what they're talking about.  These are not the informational sources our friends and family should have to rely on to learn the space.  We can do much better.",
     "whatIsGlossetaButton": "What is Glosseta?",
 
@@ -28,7 +32,7 @@
     "visitGlossetaTitle": "Visit Glosseta",
     "visitGlossetaButtonTitle": "Visit glosseta.com",
 
-    "getInTouchButtonTitle":  "Contact us",
+    "getInTouchButtonTitle":  "Interested in Collaborating?",
 
     "copyright" : "© Glosseta Foundation, 2022"
 }

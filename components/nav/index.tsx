@@ -1,8 +1,16 @@
 import React from "react";
-import { chakra, Flex, HStack, Image } from "@chakra-ui/react";
+import {
+  chakra,
+  Flex,
+  HStack,
+  Image,
+  Button,
+  Icon,
+  VisuallyHidden,
+} from "@chakra-ui/react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import { useRouter } from "next/router";
+import { FaBullhorn } from "react-icons/fa";
 
 /**
  * Implementation inspired from the developer dao website
@@ -37,6 +45,16 @@ export default function Nav() {
               bg="#7a08fc"
               title="nav-glosseta-icon"
             />
+          </HStack>
+        </Link>
+
+        <Link href={t("mainBannerContentLink")} passHref>
+          <HStack as="a" display="flex" alignItems="center" color="white">
+            <Icon as={FaBullhorn} />
+            <VisuallyHidden>{t("mainBannerA11yText")}</VisuallyHidden>
+            <Button backgroundColor={"#7a08fc"} borderRadius="xl">
+              {t("mainBannerContent")}
+            </Button>
           </HStack>
         </Link>
       </Flex>
