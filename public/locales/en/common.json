@@ -1,4 +1,8 @@
 {
+    "mainBannerContent": "Intro blog post",
+    "mainBannerContentLink": "https://narb.hashnode.dev/",
+    "mainBannerA11yText": "Important Announcement",
+    
     "glossetaFoundationTitle": "The Glosseta Foundation",
     "glossetaFoundationSEODescription": "The Glosseta Foundation is a not-for-profit organization looking introduce web3 to the everyday person",
     
@@ -6,14 +10,14 @@
     "boardMember1Name": "Narbeh Shahnazarian",
     "boardMember1Role": "Founder of Glosseta",
 
+    "problemAtHandTitle": "The Problem at Hand with Web3",
+    "whoWeAreProblemAtHandContent": "Presently, much of the attention around Web3 (i.e. the new internet backed by blockchains) is surrounded by misinformation and misrepresentation of what it is and what it isn't. The typical signals the average person is exposed to regarding Web3 casts a negative light instead of focusing on what the movement is trying to achieve. A lot has to do with a perception that Web3 and Cryptocurrency speculation are indistinguishable which is just not true. Web3 is the umbrella that covers the entire ecosystem and Cryptocurrency is one of the core innovations that falls under it. Indeed, Web3 is more than just Cryptocurrency but the world doesn't hear or see that narrative. Much of the current narrative comes from mainstream media amplifying negativity around the space to spread FUD, celebrities taking advantage of their unknowing fans and in general people who frankly don't know what they're talking about. These are not the informational sources our friends and family should have to rely on to learn the space. We can do much better.",
     "whoWeAreTitle": "Who We Are",
-    "whoWeAreContent":  "The Glosseta Foundation is a not-for-profit organization looking to push forward accessible, decentralized, open and easily digestible Web3(i.e. the new internet backed by blockchains) education to the average everyday person across the globe.  Too much of today's Web3 educational content and documentation is geared towards a more technical audience and in most cases doesn't make sense to the average person looking to explore the space.  The Glosseta Foundations mission is to provide the best open, localized and decentralized educational platform for anybody of any skill level looking to learn about Web3 protocols, terms, common lingo, applications, and more.  The main vessel for which this will come to fruition is through the Glosseta platform which is an open, decentralized educational web application built to help the everyday person demystify Web3 and its ecosystem.",
-    "problemAtHandTitle": "The Problem at Hand",
-    "whoWeAreProblemAtHandContent": "At this point of time there's too much misinformation and misrepresentation of what Web3 is and what it isn't.  From mainstream media reporting on every mishap, celebrities taking advantage of their unknowing fans and just people who flat out don't know what they're talking about.  On the other side of the coin, too much of today's documentation, educational oriented DAO's and communities are heavily developer oriented and for good reason as at this stage of web3 growth builders are needed more than ever.  Unfortunately, no one is deeply concentrating on how the rest of the globe is supposed to understand and take in Web3 and it's surrounding ecosystem in a manner that doesn't require a technical background to decipher.  What if there was an organization whose sole mission was to provide the most globally accessible, digestible Web3 educational content to be delivered in an open, localized, decentralized, transparent and community driven manner...",
-    "enterGlossetaButton": "Enter Glosseta",
+    "whoWeAreContent":  "is a not-for-profit organization whose mission is to push forward accessible, decentralized, open and easily digestible Web3 content to the everyday person across the globe. As previously mentioned, too much of today's Web3 educational content and documentation is geared towards a more technical audience and in most cases, doesn't make sense to the average person looking to learn. Furthermore, there currently isn't a community-driven effort to come up with a single source of truth for factual content around Web3. This is where the Glosseta Foundation is looking to make its mark with the help of the entire Web3 community.  The effort of the foundation will center around three main pillars:  The creation of the educational platform; the creation of a common decentralized content management system to power the platform and the Web3 community as a whole; and uniting the entire Web3 community to come together to make this vision become reality.  The educational platform will be driven and evolved through the existing vessel in the foundations arsenal, Glosseta.",    
+    "whatIsGlossetaButton": "What is Glosseta?",
 
     "glossetaPageTitle": "What is Glosseta?",
-    "glossetaContent": "Glosseta is an open, decentralized Web3(i.e. the new internet backed by blockchains) glossary for protocols, terms, people, applications, and more. Glosseta aims to be the long term companion of anyone looking to demystifying the Web3 space and ecosystem with the north star vision of being the best open, localized and decentralized educational platform for anybody of any skill level.",
+    "glossetaContent": "Glosseta is an open, decentralized Web3 (i.e. the new internet backed by blockchains) glossary for protocols, terms, people, applications, and more. Glosseta aims to be the long term companion of anyone looking to demystifying the Web3 space and ecosystem with the north-star vision of being the best open, localized and decentralized educational platform for anybody of any skill level.",
     "glossetaPageMissionTitle": "Mission Statement",
     "glossetaMissionStatement": "Glossetas' mission is to provide the best open, localized and decentralized educational platform for anybody of any skill level looking to learn about Web3. We strive to provide the most accurate, accessible and meaningful content for learning about the concepts, protocols, people and applications surrounding Web3 and its ecosystem. All of the content available through Glosseta is stored on the Arweave storage protocol ensuring our educational content will live forever and unobstructed by those trying to censor education as a public good. The current landscape of the Web3 education space is very developer centric and doesn't do justice for the average person who's looking to learn the ecosystem and simply doesn't know where to start.  At its core, Glosseta is on a mission to make a Web3 educational platform as a public good for the entire globe who at this time is feed misinformation from varying online sources, influential figures and mainstream media.  While we might begin as a glossary, the north star vision is to become the prominent open, localized and decentralized educational platform for those looking to onboard into the Web3 space.  If Web3 is to succeed, the educational content around it must be globally accessible, un-censorable and digestible to everyone.",
     "glossetaPageSuccessTitle": "What Success looks like",
@@ -28,7 +32,7 @@
     "visitGlossetaTitle": "Visit Glosseta",
     "visitGlossetaButtonTitle": "Visit glosseta.com",
 
-    "getInTouchButtonTitle":  "Contact us",
+    "getInTouchButtonTitle":  "Interested in Collaborating?",
 
     "copyright" : "© Glosseta Foundation, 2022"
 }

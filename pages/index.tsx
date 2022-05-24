@@ -1,6 +1,11 @@
 import type { NextPage } from "next";
 import PageLayout from "../components/layouts";
-import { VStack, chakra, Container, Image } from "@chakra-ui/react";
+import {
+  VStack,
+  chakra,
+  Container,
+  Image
+} from "@chakra-ui/react";
 import PageRedirectCard from "../components/navigation/page-redirect-card";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -34,6 +39,7 @@ const Home: NextPage = () => {
                   navLink="/glosseta"
                 />
               </VStack>
+              <Image src="./brain.png" alt="Image depicting a brain" />
               <VStack padding={3}>
                 <PageRedirectCard
                   title={t("boardMemberPageTitle")}
