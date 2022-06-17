@@ -1,6 +1,6 @@
 ## About
 
-TBD
+The official repo for the Glosseta Foundation website
 
 ## Getting Started
 
